@@ -4,7 +4,7 @@ using Terraria.ModLoader;
 using Microsoft.Xna.Framework;
 
 namespace SoulysMod.Content.Items
-{ 
+{
 	// This is a basic item template.
 	// Please see tModLoader's ExampleMod for every other example:
 	// https://github.com/tModLoader/tModLoader/tree/stable/ExampleMod
@@ -25,13 +25,9 @@ namespace SoulysMod.Content.Items
 			Item.rare = ItemRarityID.Blue;
 			Item.UseSound = SoundID.Item1;
 			Item.autoReuse = true;
-	
+
 		}
 
-        public override void OnHitNPC(Player player, NPC target, NPC.HitInfo hit, int damageDone)
-        {
-            base.OnHitNPC(player, target, hit, damageDone);
-        }
 
 		public override void AddRecipes()
 		{
@@ -39,6 +35,15 @@ namespace SoulysMod.Content.Items
 			recipe.AddIngredient(ItemID.DirtBlock, 10);
 			recipe.AddTile(TileID.WorkBenches);
 			recipe.Register();
+		}
+		public override string Texture => "SoulysMod/Assets/Textures/Items/Weapons/Melee/Ironfang";
+
+		public override void SetStaticDefaults()
+		{
+			// DisplayName.SetDefault("Ironfang");
+			// Tooltip.SetDefault("A sharp fang made of iron.");
+			// The following line is optional and will automatically assign the item to the "Weapons" category in the inventory.
+			// ItemID.Sets.ItemNoGravity[Item.type] = true;
 		}
 	}
 }

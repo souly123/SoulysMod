@@ -2,7 +2,7 @@
 
 Items: {
 	Ironfang: {
-		DisplayName: "Ironfang"
+		DisplayName: Ironfang
 		Tooltip:
 			'''
 			Template of an item
@@ -10,4 +10,19 @@ Items: {
 			It's snowing on Mt.Fuji
 			'''
 	}
+
+	MagicStaff: {
+		DisplayName: Magic Staff
+		Tooltip: ""
+	}
+
+	SoulyBlaster: {
+		DisplayName: Souly Blaster
+		Tooltip: ""
+	}
+}
+
+Projectiles: {
+	EnergyBolt.DisplayName: Energy Bolt
+	IronBolt.DisplayName: Iron Bolt
 }
