@@ -28,11 +28,18 @@ namespace SoulysMod.Content.Items.Weapons
             Item.shootSpeed = 12f;
         }
 
+        public override Vector2? HoldoutOffset()
+        {
+            // Adjust the position of the item in the player's hand
+            // This is optional and can be customized to fit your design
+            return new Vector2(-4f, 0); // tweak these to adjust positioning
+        }
+
         public override bool Shoot(Player player, EntitySource_ItemUse_WithAmmo source, Vector2 position, Vector2 velocity, int type, int damage, float knockback)
         {
             // Fire 3 projectiles in a spread
             int numberOfProjectiles = 3;
-            float spreadAngle = MathHelper.ToRadians(15); // 15 degrees spread
+            float spreadAngle = MathHelper.ToRadians(5); // 5 degrees spread
 
             for (int i = 0; i < numberOfProjectiles; i++)
             {

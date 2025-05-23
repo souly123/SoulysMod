@@ -38,7 +38,7 @@ namespace SoulysMod.Content.Projectiles
             if (Main.rand.NextBool(3))
             {
                 Dust.NewDust(Projectile.position + Projectile.velocity, Projectile.width, Projectile.height,
-                    DustID.Electric, Projectile.velocity.X * 0.5f, Projectile.velocity.Y * 0.5f);
+                    DustID.WaterCandle, Projectile.velocity.X * 0.2f, Projectile.velocity.Y * 0.2f);
             }
         }
 
