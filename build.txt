@@ -1,0 +1,3 @@
+displayName = Soulys Mod
+author = Souly
+version = 0.1

@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "wgclCSp8/tc=",
+  "success": true,
+  "projectFilePath": "C:\\Users\\Natha\\OneDrive\\Documents\\My Games\\Terraria\\tModLoader\\ModSources\\SoulysMod\\SoulysMod.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Natha\\.nuget\\packages\\tmodloader.codeassist\\0.1.5\\tmodloader.codeassist.0.1.5.nupkg.sha512"
+  ],
+  "logs": []
+}
