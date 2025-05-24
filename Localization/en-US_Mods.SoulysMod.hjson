@@ -20,6 +20,11 @@ Items: {
 		DisplayName: Souly Blaster
 		Tooltip: ""
 	}
+
+	NinjasKatana: {
+		DisplayName: Ninjas Katana
+		Tooltip: ""
+	}
 }
 
 Projectiles: {
