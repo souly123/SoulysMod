@@ -25,9 +25,19 @@ Items: {
 		DisplayName: Ninjas Katana
 		Tooltip: ""
 	}
+
+	StaffOfForgetting: {
+		DisplayName: Staff Of Forgetting
+		Tooltip: ""
+	}
 }
 
 Projectiles: {
 	EnergyBolt.DisplayName: Energy Bolt
 	IronBolt.DisplayName: Iron Bolt
+}
+
+Keybinds: {
+	"Conjure Spirit.DisplayName": Conjure  Spirit
+	"Absorb Summon Weapon.DisplayName": Absorb  Summon  Weapon
 }
