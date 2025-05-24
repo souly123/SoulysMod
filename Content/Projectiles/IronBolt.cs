@@ -56,7 +56,7 @@ namespace SoulysMod.Content.Projectiles
             // What happens when hitting an NPC
             target.AddBuff(BuffID.Electrified, 120); // Apply electrified debuff for 2 seconds
         }
-        public override string Texture => "SoulysMod/Assets/Textures/Items/Projectiles/IronBolt"; // Path to the texture
+        public override string Texture => "SoulysMod/Assets/Textures/Projectiles/IronBolt"; // Path to the texture
         public override void SetStaticDefaults()
         {
             // DisplayName.SetDefault("Iron Bolt");

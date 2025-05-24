@@ -57,7 +57,7 @@ namespace SoulysMod.Content.Projectiles
             target.AddBuff(BuffID.Electrified, 120); // Apply electrified debuff for 2 seconds
         }
         
-        public override string Texture => "SoulysMod/Assets/Textures/Items/Projectiles/EnergyBolt"; // Path to the texture
+        public override string Texture => "SoulysMod/Assets/Textures/Projectiles/EnergyBolt"; // Path to the texture
         public override void SetStaticDefaults()
         {
             // DisplayName.SetDefault("Energy Bolt");
