@@ -13,10 +13,13 @@ namespace SoulysMod
 		public static ModKeybind ConjureKey;
 		public static ModKeybind AbsorbKey;
 
+		public static ModKeybind CycleSummonKey;
+
 		public override void Load()
 		{
-    		ConjureKey = KeybindLoader.RegisterKeybind(this, "Conjure Spirit", "Q");
-    		AbsorbKey = KeybindLoader.RegisterKeybind(this, "Absorb Summon Weapon", "R");
+			ConjureKey = KeybindLoader.RegisterKeybind(this, "Conjure Spirit", "Q");
+			AbsorbKey = KeybindLoader.RegisterKeybind(this, "Absorb Summon Weapon", "R");
+			CycleSummonKey = KeybindLoader.RegisterKeybind(this, "Cycle Summon", "E");
 		}
 
 	}
