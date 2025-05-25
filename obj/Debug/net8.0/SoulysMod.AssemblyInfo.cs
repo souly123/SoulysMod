@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("SoulysMod")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+d2f90a1dc6a7145b81e3f6e6fd4fc7b325019280")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+5f8e665d1225442427b7efac2f08cb3185a6fa84")]
 [assembly: System.Reflection.AssemblyProductAttribute("SoulysMod")]
 [assembly: System.Reflection.AssemblyTitleAttribute("SoulysMod")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
